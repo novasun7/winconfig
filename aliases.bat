@@ -16,6 +16,7 @@ rem Default editor - should be in path
 doskey edit=notepad $*
 
 doskey pwd=cd
-
 doskey home=cd %USERPROFILE%
+doskey rgb="C:\Program Files\OpenRGB\OpenRGB.exe" $*
+doskey lic=reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v BackupProductKeyDefault
 
