@@ -6,15 +6,8 @@ rem > reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun ^
 rem    /t REG_EXPAND_SZ /d "%"USERPROFILE"%\winconfig\init.bat" /f
 rem
 
-rem This one is for Ruby native gem
-rem call "C:\Program Files\Ruby DevKit-mingw64-64-4.7.2\devkitvars.bat"
-
 rem My aliases
 call %USERPROFILE%\winconfig\aliases.bat
-
-rem Ansicon for ANSI colored command prompt
-rem Don't need this on Windows 10
-rem "C:\Program Files\ansicon\x64\ansicon" -p
 
 rem Set my prompt
 prompt=$E[32m%username%@%computername%$S$E[33m$P$E[0m$_$G$S
