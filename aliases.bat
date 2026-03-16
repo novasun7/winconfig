@@ -26,3 +26,11 @@ doskey bin=cd "%USERPROFILE%\bin"
 rem py alias for build scripts
 doskey py=python $*
 
+REM work directory (from desktop)
+set INWORK=%USERPROFILE%\OneDrive - The GEO Group\Desktop\inwork
+doskey inwork=cd "%INWORK%"
+
+REM python alias for firmware build process
+doskey py=python $*
+
+
